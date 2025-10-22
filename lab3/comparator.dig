@@ -22,7 +22,7 @@
           <string>Sign</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="260"/>
+      <pos x="360" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -32,7 +32,7 @@
           <string>Overflow</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="340"/>
+      <pos x="360" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -42,7 +42,7 @@
           <string>Result</string>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="300"/>
+      <pos x="520" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>Testcase</elementName>
@@ -64,7 +64,46 @@
       </elementAttributes>
       <pos x="400" y="100"/>
     </visualElement>
+    <visualElement>
+      <elementName>XOr</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="400" y="240"/>
+    </visualElement>
   </visualElements>
-  <wires/>
+  <wires>
+    <wire>
+      <p1 x="380" y="240"/>
+      <p2 x="400" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="260"/>
+      <p2 x="520" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="280"/>
+      <p2 x="400" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="220"/>
+      <p2 x="380" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="300"/>
+      <p2 x="380" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="220"/>
+      <p2 x="380" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="280"/>
+      <p2 x="380" y="300"/>
+    </wire>
+  </wires>
   <measurementOrdering/>
 </circuit>
